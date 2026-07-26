@@ -51,11 +51,8 @@ searchBTn.addEventListener("click",async()=>{
         humidity.innerText=`${data.main.humidity}%`;
         wind.innerText=`${data.wind.speed}m/s`;
        
-
-        //weather icon
         const icon=data.weather[0].icon;
-        weathericon.src=`https://openweathermap.org/img/wn/${icon}@2x.png`;
-        
+        weathericon.src=`https://openweathermap.org/img/wn/${icon}@2x.png`; 
  }
 
  catch(error){
