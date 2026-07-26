@@ -25,7 +25,7 @@ displays current weather conditions, hourly forecasts, and a 5-day forecast with
 - OpenWeatherMap API
 
 ## 📸 Screenshot
-screenshots/weather-app
+![Weather App Screenshot](screenshots/weather-app.png)
 
 ## 🌐 Live Demo
 
