@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+         <div class="loading">Loading Weather...</div>
+        <div class="search-box">
+          
+            
+
+    <input
+        type="text"
+        placeholder="Search city..."
+        id="cityInput"
+    >
+
+   <button id="searchBtn">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</button>
+
+</div>
+ 
+<div class="weather">
+
+    <h2 class="city">London, UK</h2>
+
+    <p class="date">
+        Monday, 24 July
+    </p>
+
+    <div class="weather-icon">
+
+        <img src="images/moon-cloud.png" alt="weather">
+
+    </div>
+
+    <h1 class="temp">
+        25°
+    </h1>
+
+    <p class="feels">
+        Feels like 28°
+    </p>
+
+    <h3 class="condition">
+        Partly Cloudy
+    </h3>
+
+</div>
+<div class="weather-details">
+
+    <div class="detail-card">
+     <div class="detail-icon">💧</div>
+        <h4>Humidity</h4>
+
+        <p class="humidity">65%</p>
+
+    </div>
+
+    <div class="detail-card">
+         <div class="detail-icon">💨</div>
+        <h4>Wind</h4>
+
+        <p class="wind">12 km/h</p>
+
+    </div>
+
+    <div class="detail-card">
+     <div class="detail-icon">🌧️</div>
+        <h4>Rain</h4>
+
+        <p class="rain">10%</p>
+
+    </div>
+
+</div>
+<div class="hourly-forecast">
+
+   <h3>Today</h3>
+   <div class="hourly-container">
+    
+   </div>
+    </div>
+<div class="daily-forecast">
+
+    <h3>5-Day Forecast</h3>
+        <div class="daily-container">
+
+        </div>
+
+    </div>
+<script src="script.js"></script>
+    </div> 
+</body>
+</html>
